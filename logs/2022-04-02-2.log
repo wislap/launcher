@@ -1,0 +1,9 @@
+[14:39:09] [Render thread/ERROR]: Failed to verify authentication
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: null
+	at com.mojang.authlib.yggdrasil.YggdrasilSocialInteractionsService.checkPrivileges(YggdrasilSocialInteractionsService.java:97) ~[authlib-2.1.28.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilSocialInteractionsService.<init>(YggdrasilSocialInteractionsService.java:40) ~[authlib-2.1.28.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createSocialInteractionsService(YggdrasilAuthenticationService.java:152) ~[authlib-2.1.28.jar:?]
+	at djz.a(SourceFile:625) [1.16.5.jar:?]
+	at djz.<init>(SourceFile:409) [1.16.5.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:177) [1.16.5.jar:?]
+[14:39:10] [Render thread/INFO]: Setting user: 12345

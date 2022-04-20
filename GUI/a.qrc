@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="g">
+    <file>background-classic.jpg</file>
+    <file>e.qss</file>
+  </qresource>
+</RCC>
